@@ -3,5 +3,5 @@ function print(object) {
   return console.log(object.name)
 }
 function logDriverNames (array) {
-  return array.forEach((name));
+  return array.forEach(print(object));
 }
