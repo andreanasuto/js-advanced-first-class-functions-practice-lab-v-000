@@ -38,3 +38,9 @@ function totalRevenue(array) {
 }, 0)
   return sum
 }
+
+function averageRevenue(array) {
+  const newarray = array.map(function (e) { return e.revenue})
+  const average = totalRevenue(array) / newarray.length
+  return average
+}
