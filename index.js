@@ -10,6 +10,9 @@ function logDriverNames (array) {
 
 function logDriversByHometown(array, location) {
   const newarray = array.filter(element => element.hometown == location)
-  console.log(newarray);
   return newarray.forEach(print)
+}
+
+function driversByRevenue(array) {
+  array.sort(element.revenue)
 }
