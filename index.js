@@ -19,3 +19,10 @@ function driversByRevenue(array) {
   })
   return newarray
 }
+
+function driversByName(array) {
+  const newarray = array.slice().sort(function (a, b) {
+  return a.name - b.name;
+  })
+  return newarray
+}
