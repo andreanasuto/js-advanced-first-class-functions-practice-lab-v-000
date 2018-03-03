@@ -4,5 +4,5 @@ const print = function (object) {
 }
 
 function logDriverNames (array) {
-  return array.forEach(print(print));
+  return array.forEach(print;
 }
