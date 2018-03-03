@@ -34,3 +34,4 @@ function driversByName(array) {
 function totalRevenue(array) {
   const newarray = array.filter(function (e) { return e.revenue})
   console.log(newarray)
+}
