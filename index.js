@@ -33,7 +33,7 @@ function driversByName(array) {
 
 function totalRevenue(array) {
   const newarray = array.map(function (e) { return e.revenue})
-  newarray.reduce(function (a, b) {
+  const sum = newarray.reduce(function (a, b) {
   return a + b;
 }, 0)
 }
