@@ -22,7 +22,7 @@ function driversByRevenue(array) {
 
 function driversByName(array) {
   const newarray = array.slice().sort(function (a, b) {
-  return b.name - a.name;
+  return a.name - b.name;
   })
   return newarray
 }
