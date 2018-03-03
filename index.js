@@ -14,7 +14,7 @@ function logDriversByHometown(array, location) {
 }
 
 function driversByRevenue(array) {
-  array.slice().sort(function (a, b) {
+  const newarray = array.slice().sort(function (a, b) {
   return a.revenue - b.revenue;
   })
 }
