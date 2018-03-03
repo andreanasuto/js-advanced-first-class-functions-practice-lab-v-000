@@ -30,3 +30,7 @@ function driversByName(array) {
   })
   return newarray
 }
+
+function totalRevenue(array) {
+  console.log(array.filter(function (e) return e.revenue));
+}
