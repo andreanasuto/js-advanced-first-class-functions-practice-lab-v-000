@@ -6,3 +6,9 @@ const print = function (object) {
 function logDriverNames (array) {
   return array.forEach(print)
 }
+
+
+function logDriversByHometown(array, location) {
+  const newarray = array.map(element => element.hometown == location)
+  return newarray.forEach(print)
+}
